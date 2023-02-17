@@ -1,0 +1,16 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  height: 700px;
+}
+.rym {
+  font-family: "RRFont";
+  color: aqua;
+  -webkit-text-stroke: 0.5px rgba(0, 0, 0, 0.5);
+  margin: 0px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 20%;
+  font-size: 70px;
+}

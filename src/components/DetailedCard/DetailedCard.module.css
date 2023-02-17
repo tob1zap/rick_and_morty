@@ -1,0 +1,78 @@
+.card {
+  width: 300px;
+  height: 425px;
+  border-color: black transparent black;
+  border-width: 3px 10px 3px;
+  border-style: solid;
+  border-radius: 5%;
+  scale: 70%;
+  background: rgba(120, 226, 170, 0.41);
+  background: linear-gradient(
+    90deg,
+    rgba(120, 226, 170, 0.41) 0%,
+    rgba(83, 106, 104, 0.41) 20%
+  );
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(120, 226, 170, 0.41) 0%,
+    rgba(83, 106, 104, 0.41) 20%
+  );
+  background: -moz-linear-gradient(
+    90deg,
+    rgba(120, 226, 170, 0.41) 0%,
+    rgba(83, 106, 104, 0.41) 20%
+  );
+  transition: scale 0.1s ease;
+}
+.button {
+  border-color: transparent;
+  background-color: transparent;
+  color: aquamarine;
+  font-family: "RRFont";
+  scale: 200%;
+  cursor: pointer;
+  font-weight: 600;
+  -webkit-text-stroke: 0.5px rgba(0, 0, 0, 0.5);
+}
+.buttonFav {
+  text-align: right;
+  border-color: transparent;
+  background-color: transparent;
+  color: greenyellow;
+  font-family: "RRFont";
+  scale: 250%;
+  cursor: pointer;
+  font-weight: 600;
+  -webkit-text-stroke: 1px rgba(0, 0, 0, 0.7);
+}
+.cardText {
+  text-align: center;
+  -webkit-text-stroke: 0.4px black;
+  color: greenyellow;
+  height: 5px;
+  margin-top: -4px;
+  font-family: "Courier New", Courier, monospace;
+}
+.imagen {
+  border-radius: 5%;
+  scale: 80%;
+  max-width: 300px;
+  max-height: 300px;
+}
+.cardTextNombre {
+  font-size: 30px;
+  text-align: center;
+  color: aquamarine;
+  height: 4px;
+  margin-top: -3px;
+  font-family: "RRFont";
+}
+.botonera {
+  margin-top: 7px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.card:hover {
+  scale: 75%;
+}

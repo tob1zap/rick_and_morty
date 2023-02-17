@@ -1,0 +1,32 @@
+.buscar {
+  border-radius: 30%;
+  background-color: aquamarine;
+  width: 300px;
+  height: 25px;
+  margin-right: 20px;
+  font-family: "RRFont";
+}
+.btn {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 40px;
+  rotate: 90deg;
+  border-radius: 50%;
+  cursor: pointer;
+  border-color: transparent;
+  background-color: transparent;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+}
+.image {
+  height: 70px;
+  border-radius: 50%;
+}
+.image:hover {
+  scale: 110%;
+}

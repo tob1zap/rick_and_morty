@@ -1,0 +1,29 @@
+.landing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url("https://images3.alphacoders.com/606/606020.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  justify-content: center;
+  overflow: hidden;
+  max-height: 100vh;
+}
+
+.imagen {
+  height: 350px;
+  border-radius: 60%;
+}
+.boton {
+  background-color: transparent;
+  border-color: transparent;
+}
+.text {
+  color: rgba(158, 124, 50, 0.191);
+}
